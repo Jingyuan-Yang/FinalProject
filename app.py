@@ -308,6 +308,8 @@ st.write('This score is calculated based on Video Games Sales data from 1985 to 
 
 df = FilterHistoricalData(df)
 
+
+
 st.write(' ')
 st.write(' ')
 st.write(' ')
@@ -317,4 +319,6 @@ st.write(' ')
 st.header('Information and References')
 st.write("Source data: [Video Game Sales with Ratings | Kaggle](https://www.kaggle.com/rush4ratio/video-game-sales-with-ratings)")
 st.write("Link to Github repository: [Github Repository](https://github.com/Jingyuan-Yang/FinalProject)")
-
+st.write('The utilizations for Plotly including Pie Chart and Bar Chart are taken from this [link](https://datascience.fm/video-game-sales-analysis/) ')
+st.write('The utilizations for Scikit-Learn to make prediction for rating score are taken from this [link](https://stackabuse.com/linear-regression-in-python-with-scikit-learn/)')
+st.write('The method to use Dummy Variable to change categorical variable to numeric variable is taken from this [link](https://medium.com/analytics-vidhya/implementing-linear-regression-using-sklearn-76264a3c073c)')
