@@ -108,7 +108,7 @@ def FilterHistoricalData(df):
 
 
     # Altair
-    st.header('Altair Scatter Plot')
+    st.header('Altair Chart')
     chart = alt.Chart(df).mark_circle().encode(
         x=alt.X('User_Score', scale=alt.Scale(zero=False)),
         y='Critic_Score',
