@@ -242,9 +242,9 @@ st.markdown(
 
 
 st.title('Video Games Rating System')
-st.write('Video Games Rating System is designed to provide gaming companies a recommended rating score\
+st.write('Video Games Rating System is designed to provide game producers a recommended rating score\
         for reference through analyzing the Genre, Platform, ESRB Rating, Estimated Global Sales, \
-        and the gaming companies’ Self-Rated Score with Machine Learning.')
+        and the game companies’ Self-Rated Score with Machine Learning.')
 
 
 df= pd.read_csv('video_game_sales.csv',index_col=False)
@@ -303,7 +303,7 @@ st.write(' ')
 
 
 st.write('This score is calculated based on Video Games Sales data from 1985 to 2016. Please use it as a\
-         reference for your decisions making. You can view the Historical Data by utilziing the Filter (located at the LEFT SIDEBAR).\
+         reference for your decisions making. You can view the Historical Data by utilizing the Filter (located at the LEFT SIDEBAR).\
          After filtering, you will see different interactive charts based on the applied filter.')
 
 df = FilterHistoricalData(df)
