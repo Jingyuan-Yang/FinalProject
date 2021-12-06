@@ -297,7 +297,7 @@ if get_rating_button:
         st.warning('Please Complete All Fields Before Submitting')
 
 
-
+st.write(' ')
 st.write(' ')
 st.write(' ')
 
@@ -315,11 +315,6 @@ st.write('This Video Games Rating System have managed to give a rate for your ga
   of your game.')
 
 
-
-
-
-st.write(' ')
-st.write(' ')
 st.write(' ')
 st.write(' ')
 st.write(' ')
