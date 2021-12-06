@@ -116,8 +116,8 @@ def FilterHistoricalData(df):
         color=alt.Color('Year_of_Release',
                         scale=alt.Scale(scheme='turbo')),
         tooltip=['Name','Genre','Publisher','Critic_Count', "User_Count"]
-    ).properties(width=1800,
-                 height=1400)
+    ).properties(width=900,
+                 height=500)
 
     st.altair_chart(chart)
 
