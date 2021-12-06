@@ -286,6 +286,11 @@ if get_rating_button:
 
 
 
+st.write(' ')
+st.write(' ')
+st.write(' ')
+st.write(' ')
+st.write(' ')
 
 st.write('This score is calculated based on Video Games Sales data from 1985 to 2016. Please use it as a\
          reference for your decisions making. You can view the Historical Data by utilziing the Filter (located at the left sidebar).\
@@ -293,6 +298,8 @@ st.write('This score is calculated based on Video Games Sales data from 1985 to 
 
 df = FilterHistoricalData(df)
 
+st.write(' ')
+st.write(' ')
 st.write(' ')
 st.write(' ')
 st.write(' ')
