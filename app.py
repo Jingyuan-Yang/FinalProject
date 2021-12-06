@@ -304,5 +304,5 @@ st.write(' ')
 
 st.header('References')
 st.write("Source data: [Video Game Sales with Ratings | Kaggle](https://www.kaggle.com/rush4ratio/video-game-sales-with-ratings)")
-st.write("Link to Github repository: [Github repository](https://github.com/Jingyuan-Yang/FinalProject)")
+st.write("Link to Github repository: [Github Repository](https://github.com/Jingyuan-Yang/FinalProject)")
 
