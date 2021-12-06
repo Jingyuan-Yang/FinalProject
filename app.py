@@ -126,13 +126,14 @@ def FilterHistoricalData(df):
 
     pie1 = px.pie(df, values=df['Global_Sales'][:10],
                   names=df['Name'][:10],
-                  title="Top 10 games globally after filtering (shows the proportion of sales each game holds).",
+                  title="Top 10 games globally",
                   color_discrete_sequence=px.colors.sequential.Purp_r)
     pie1.update_traces(textposition='inside', textinfo='percent+label', showlegend=False)
 
 
     st.subheader("Pie Chart")
-    st.write('What are the top 10 games after fitlering that make the most sales globally?')
+    st.write('What are the top 10 games after filtering that make the most sales globally?')
+    st.write('The pie chart shows the proportion of sales each game holds, while also depicting the results.')
     st.plotly_chart(pie1)
 
 
@@ -179,6 +180,7 @@ def FilterHistoricalData(df):
     subplot_name1.update_xaxes(tickangle=45)
 
     st.write('What are the top games after filtering for different regions?')
+    st.write('The graph shows us the top games preferred by users in different regions and also globally. ')
     st.plotly_chart(subplot_name1)
 
 
