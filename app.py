@@ -123,6 +123,7 @@ def FilterHistoricalData(df):
 
 
    # Pie Chart
+    st.write('What are the top 10 games after fitlering that make the most sales globally?')
     pie1 = px.pie(df, values=df['Global_Sales'][:10],
                   names=df['Name'][:10],
                   title="Top 10 games globally after filtering (shows the proportion of sales each game holds).",
