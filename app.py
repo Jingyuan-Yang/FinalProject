@@ -309,7 +309,7 @@ st.write('This score is calculated based on Video Games Sales data from 1985 to 
 df = FilterHistoricalData(df)
 
 st.header('Conclusions')
-st.write('This Video Games Rating System have managed to give a rate for your game and provide the\
+st.write('This Video Games Rating System has managed to give a rate for your game and provide the\
  interactive charts for the filtered historical data. Hope the results will be beneficial in improving both sales and\
   customer satisfaction. We hope you find this system useful in addressing your plans for improving the next version \
   of your game.')
