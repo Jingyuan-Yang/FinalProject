@@ -110,8 +110,10 @@ def FilterHistoricalData(df):
     # Altair
     st.subheader('Altair Chart')
     st.write('We will visualize the Video Games Sales data in form of a scatter plot.\
-     In Altair Chart, x-axis represents user score, y-axis represents critic score, the size of circle\
-             shows the relative global sales, and it is also clear to see the year of release.')
+             The mark method used for scatter plot is mark_circle().\
+             For this bi-variate analysis, we map the Critic_Score and Global_Score columns to the x and y axes encoding.\
+             Further, to differentiate the points from each other, we map the size encoding to the Global_Sales column,\
+             and color to Year_of_Release.)
 
     chart = alt.Chart(df).mark_circle().encode(
         x=alt.X('User_Score', scale=alt.Scale(zero=False)),
