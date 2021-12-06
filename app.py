@@ -177,7 +177,7 @@ def FilterHistoricalData(df):
     subplot_name1.add_trace(go.Bar(x=name_df['Name_other'][:5], y=name_df['Other_Sales'][:5],
                                    marker=dict(color=[10, 11, 12], coloraxis="coloraxis")), 4, 1)
 
-    subplot_name1.update_layout(height=1000, width=500, coloraxis=dict(colorscale='agsunset_r'), showlegend=False)
+    subplot_name1.update_layout(height=500, width=800, coloraxis=dict(colorscale='agsunset_r'), showlegend=False)
     subplot_name1.update_xaxes(tickangle=45)
 
     st.write('What are the top games after filtering for different regions?')
