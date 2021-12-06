@@ -304,9 +304,17 @@ st.write(' ')
 
 st.write('This score is calculated based on Video Games Sales data from 1985 to 2016. Please use it as a\
          reference for your decisions making. You can view the Historical Data by utilizing the Filter (located at the LEFT SIDEBAR).\
-         After filtering, you will see different interactive charts based on the applied filter.')
+         After filtering, you will see a report with different interactive charts based on the applied filter.')
 
 df = FilterHistoricalData(df)
+
+st.header('Conclusions')
+st.write('This Video Games Rating System have managed to give a rate for your game and provide the\
+ interactive charts for the filtered historical data. Hope the results will be beneficial in improving both sales and\
+  customer satisfaction. We hope you find this system useful in addressing your plans for improving the next version \
+  of your game.')
+
+
 
 
 
