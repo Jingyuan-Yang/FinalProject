@@ -127,7 +127,8 @@ def FilterHistoricalData(df):
     pie1 = px.pie(df, values=df['Global_Sales'][:10],
                   names=df['Name'][:10],
                   title="Top 10 games globally",
-                  color_discrete_sequence=px.colors.sequential.Purp_r)
+                  color_discrete_sequence=px.colors.sequential.Purp_r,
+                  width=800,height=500)
     pie1.update_traces(textposition='inside', textinfo='percent+label', showlegend=False)
 
 
