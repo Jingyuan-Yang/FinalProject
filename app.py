@@ -126,8 +126,8 @@ def FilterHistoricalData(df):
                  height=500)
 
     st.altair_chart(chart)
-    st.write('The circle with the biggest size represents this video game has the most global sale. But please notice\
-    that sometimes the game with the most global sale may not have the most critic score or user score.')
+    st.write('The circle with the biggest size means this video game has the most global sales. But please notice\
+    that in some cases the game with the most global sales may not also have the most critic score or user score.')
 
 
    # Pie Chart
