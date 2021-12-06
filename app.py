@@ -93,7 +93,7 @@ def FilterHistoricalData(df):
 
    # OLD DATAFRAME VISUALIZATION
 
-    st.header('Filtered Historical Data')
+    st.subheader('Filtered Historical Data')
     df = df[df.Year_of_Release.isin(list(range(start_year,end_year+1)))]
 
     df = df.loc[(df['Genre']==genre_choice) & \
