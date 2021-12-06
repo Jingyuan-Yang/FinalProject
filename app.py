@@ -303,7 +303,7 @@ st.write(' ')
 
 
 st.write('This score is calculated based on Video Games Sales data from 1985 to 2016. Please use it as a\
-         reference for your decisions making. You can view the Historical Data by utilizing the Filter (located at the LEFT SIDEBAR).\
+         reference for your decisions making. You can view the Historical Data by utilizing the Filter (located at the LEFT sidebar).\
          After filtering, you will see a report with different interactive charts based on the applied filter.')
 
 df = FilterHistoricalData(df)
