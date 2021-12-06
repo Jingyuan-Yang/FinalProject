@@ -109,13 +109,28 @@ def FilterHistoricalData(df):
 
     # Altair
     st.subheader('Altair Chart')
-    chart = alt.Chart(df).mark_circle().encode(
+    st.write('We will visualize the Video Games Sales data in form of a scatter plot.\
+     In Altair Chart, x-axis represents user score, y-axis represents critic score, the size of circle\
+             shows the relative global sales, and it is also clear to see the year of release.')
+
+    #chart = alt.Chart(df).mark_circle().encode(
+     #   x=alt.X('User_Score', scale=alt.Scale(zero=False)),
+     #   y='Critic_Score',
+     #   size='Global_Sales',
+     #   color=alt.Color('Year_of_Release',
+     #                   scale=alt.Scale(scheme='turbo')),
+     #   tooltip=['Name','Genre','Publisher','Critic_Count', "User_Count"]
+    #).properties(width=800,
+     #            height=500)
+
+
+    chart = alt.Chart(df).mark_point().encode(
         x=alt.X('User_Score', scale=alt.Scale(zero=False)),
         y='Critic_Score',
-        size='Global_Sales',
+        shape='Genre',
         color=alt.Color('Year_of_Release',
                         scale=alt.Scale(scheme='turbo')),
-        tooltip=['Name','Genre','Publisher','Critic_Count', "User_Count"]
+        tooltip=['Name', 'Genre', 'Publisher', 'Critic_Count', "User_Count"]
     ).properties(width=800,
                  height=500)
 
