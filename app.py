@@ -229,7 +229,7 @@ st.markdown(
 
 
 
-st.title('Video Games Rating System')
+st.title('Video Games Rating System!')
 st.write('Video Games Rating System is designed to provide gaming companies a recommended rating score\
         for reference through analyzing the Genre, Platform, ESRB Rating, Estimated Global Sales, \
         and the gaming companies’ Self-Rated Score with Machine Learning.')
