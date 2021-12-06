@@ -108,7 +108,7 @@ def FilterHistoricalData(df):
 
 
     # Altair
-    st.header('Altair Chart')
+    st.subheader('Altair Chart')
     chart = alt.Chart(df).mark_circle().encode(
         x=alt.X('User_Score', scale=alt.Scale(zero=False)),
         y='Critic_Score',
@@ -130,12 +130,12 @@ def FilterHistoricalData(df):
     pie1.update_traces(textposition='inside', textinfo='percent+label', showlegend=False)
 
 
-    st.header("Pie Chart")
+    st.subheader("Pie Chart")
     st.plotly_chart(pie1)
 
 
     # Bar Chart
-    st.header('Bar Chart')
+    st.subheader('Bar Chart')
     name2 = pd.DataFrame(
         df.groupby("Name")[["NA_Sales"]].mean().sort_values(by=['NA_Sales'], ascending=[False]).reset_index())
     name2.rename(columns={'Name': 'Name_NA'}, inplace=True)
