@@ -231,15 +231,12 @@ def GetSuggestScore(X):
 st.markdown(
      """
      <style>
-     .reportview-container {
+     body {
          background-image: url("http://3.bp.blogspot.com/-ntgY5VZzkp4/T8-aTXG_kzI/AAAAAAAAAHI/kuzWUHH0KDI/s1600/Level+one.jpg");
          background-size: cover;
          
      }
-    .sidebar .sidebar-content {
-         background-image: url("http://3.bp.blogspot.com/-ntgY5VZzkp4/T8-aTXG_kzI/AAAAAAAAAHI/kuzWUHH0KDI/s1600/Level+one.jpg");
-         background-size: cover;
-     }
+
      </style>
      """,
      unsafe_allow_html=True
