@@ -225,14 +225,17 @@ def GetSuggestScore(X):
 
 
 #Add Background Picture
+# background: url(
+#     "https://get.wallhere.com/photo/simple-simple-background-minimalism-video-game-characters-pink-light-pink-logo-Paper-Mario-Mario-Bros-Super-Mario-silhouette-1381511.jpg")
+
 st.markdown(
      """
      <style>
      .reportview-container {
-         background: url("https://get.wallhere.com/photo/simple-simple-background-minimalism-video-game-characters-pink-light-pink-logo-Paper-Mario-Mario-Bros-Super-Mario-silhouette-1381511.jpg")
+         background: url("http://3.bp.blogspot.com/-ntgY5VZzkp4/T8-aTXG_kzI/AAAAAAAAAHI/kuzWUHH0KDI/s1600/Level+one.jpg")
      }
     .sidebar .sidebar-content {
-         background: url("https://get.wallhere.com/photo/simple-simple-background-minimalism-video-game-characters-pink-light-pink-logo-Paper-Mario-Mario-Bros-Super-Mario-silhouette-1381511.jpg")
+         background: url("http://3.bp.blogspot.com/-ntgY5VZzkp4/T8-aTXG_kzI/AAAAAAAAAHI/kuzWUHH0KDI/s1600/Level+one.jpg")
      }
      </style>
      """,
