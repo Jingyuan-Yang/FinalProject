@@ -229,18 +229,17 @@ def GetSuggestScore(X):
 #     "https://get.wallhere.com/photo/simple-simple-background-minimalism-video-game-characters-pink-light-pink-logo-Paper-Mario-Mario-Bros-Super-Mario-silhouette-1381511.jpg")
 
 st.markdown(
-     """
+     f"""
      <style>
-     body {
-         background-image: url("http://3.bp.blogspot.com/-ntgY5VZzkp4/T8-aTXG_kzI/AAAAAAAAAHI/kuzWUHH0KDI/s1600/Level+one.jpg");
-         background-size: cover;
-         
-     }
-
+     .stApp {{
+         background: url("http://3.bp.blogspot.com/-ntgY5VZzkp4/T8-aTXG_kzI/AAAAAAAAAHI/kuzWUHH0KDI/s1600/Level+one.jpg");
+         background-size: cover
+     }}
      </style>
      """,
      unsafe_allow_html=True
  )
+
 
 # https://i.pinimg.com/originals/e1/ba/d3/e1bad340fb3afbc791939ad083b49dd5.jpg
 
